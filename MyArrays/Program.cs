@@ -55,18 +55,6 @@ namespace IliaChapidzeHomeWork
             Console.WriteLine($"ArithmetiPass: {ArithmetiPass}");
 
 
-
-
-
-
-
-
-
-
-
-
-
-
             Console.WriteLine("--------------3--------------");
             int[] Arrays = new int[5];
            
@@ -79,8 +67,9 @@ namespace IliaChapidzeHomeWork
                     {
                         Arrays[i] = MyArray[g];
                         Console.WriteLine($"number: {Arrays[i]}");
-                    } 
+                    }
                 }
+              
             }
             
             Console.WriteLine("--------------3--------------");
