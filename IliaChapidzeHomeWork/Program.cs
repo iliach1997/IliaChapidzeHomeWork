@@ -19,7 +19,7 @@
             int a = 5;
             float b = a;
             double c = b;
-            //Exlicit
+            //Explicit
             double d = 5.4;
             float f=(float)d;
 
