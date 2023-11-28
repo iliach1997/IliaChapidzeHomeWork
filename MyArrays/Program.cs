@@ -25,7 +25,6 @@ namespace IliaChapidzeHomeWork
                     MaxNum = MyArray[j]; 
                   
                 }
-           
             }  
             Console.WriteLine($"MaxNum: {MaxNum}");
             Console.WriteLine("--------------MINNAMBER--------------");
