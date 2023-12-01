@@ -60,7 +60,7 @@
             secondNumber = Convert.ToDouble(Console.ReadLine());
             Print();
             switch (Console.ReadLine())
-            {
+            {     
                 case "+":
                    var result = firstNumber + secondNumber;
                     Console.WriteLine($"Your result {result}");
