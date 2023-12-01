@@ -5,23 +5,19 @@
         static void Main(string[] args)
         {
             Console.WriteLine("Hello, Enter your Name:");
-            string Name = Console.ReadLine();
+            var firstName = Console.ReadLine();
             Console.WriteLine("Enter your LastName:");
-            string LastName = Console.ReadLine();
+            var lastName = Console.ReadLine();
             Console.WriteLine("Enter your Gmail:");
-            string UserGmail = Console.ReadLine();
-            string FullName = Name + " " + LastName;
-
-            Console.WriteLine(FullName);
-            Console.WriteLine(UserGmail);
-
-            //Implicit 
-            int a = 5;
-            float b = a;
-            double c = b;
-            //Explicit
-            double d = 5.4;
-            float f = (float)d;
+            var userGmail = Console.ReadLine();
+            var fullName = firstName + " " + lastName;
+            Console.WriteLine(fullName);
+            Console.WriteLine(userGmail);
+            var a = 5;
+            var b = a;
+            var c = b;
+            var d = 5.4;
+            var f = (float)d;
         }
     }
 }

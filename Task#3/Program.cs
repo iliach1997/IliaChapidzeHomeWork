@@ -5,71 +5,53 @@
         static void Main(string[] args)
         {
             int[] MyArray = new int[5];
-            for (int i = 0; i < MyArray.Length; i++)
+            for (var i = 0; i < MyArray.Length; i++)
             {
-
                 Console.WriteLine("Enter a number :");
                 MyArray[i] = Convert.ToInt32(Console.ReadLine());
-
-
-
             }
             Console.WriteLine("------------MAXNUMBER--------------");
             var MaxNum = 0;
-            for (int j = 0; j < MyArray.Length; j++)
+            for (var i = 0; i < MyArray.Length; i++)
             {
-
-                if (MyArray[j] > MaxNum)
+                if (MyArray[i] > MaxNum)
                 {
-                    MaxNum = MyArray[j];
-
+                    MaxNum = MyArray[i];
                 }
             }
             Console.WriteLine($"MaxNum: {MaxNum}");
             Console.WriteLine("--------------MINNAMBER--------------");
             var MinNum = MyArray[0];
-            for (int g = 0; g < MyArray.Length; g++)
+            for (var i = 0; i < MyArray.Length; i++)
             {
-
-                if (MyArray[g] < MinNum)
+                if (MyArray[i] < MinNum)
                 {
-                    MinNum = MyArray[g];
-
+                    MinNum = MyArray[i];
                 }
-
             }
             Console.WriteLine($"MinNum: {MinNum}");
             Console.WriteLine("--------------ArithmetiPass--------------");
-            var ArithmetiPass = 0;
-            for (int g = 0; g < MyArray.Length; g++)
+            var average = 0;
+            for (int i = 0; i < MyArray.Length; i++)
             {
-                ArithmetiPass = ArithmetiPass + MyArray[g];
-
-
-
+                average = average + MyArray[i];
             }
-            ArithmetiPass = ArithmetiPass / MyArray.Length;
-
-            Console.WriteLine($"ArithmetiPass: {ArithmetiPass}");
-
-
+            average = average / MyArray.Length;
+            Console.WriteLine($"Average: {average}");
             Console.WriteLine("--------------3--------------");
             int[] Arrays = new int[5];
-
-            for (int g = 0; g < MyArray.Length; g++)
+            for (var j = 0; j < MyArray.Length; j++)
             {
-                var result = MyArray[g] % 3;
+                var result = MyArray[j] % 3;
                 if (result == 0)
                 {
-                    for (int i = 0; i < 5; i++)
+                    for (var i = 0; i < 5; i++)
                     {
-                        Arrays[i] = MyArray[g];
+                        Arrays[i] = MyArray[j];
                         Console.WriteLine($"number: {Arrays[i]}");
                     }
                 }
-
             }
-
             Console.WriteLine("--------------3--------------");
         }
     }
