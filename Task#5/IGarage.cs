@@ -8,7 +8,7 @@ namespace Task_5
 {
     internal interface IGarage
     {
-        public void AllVehiclePrint();
-        public void AllPrice();
+      void PrintVehicles();
+      void CountTotalPrice();
     }
 }

@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace Task_5
 {
-    internal interface IStartable
-    {
-     void Start();
-    }
+ internal interface IStartable
+ {
+  void Start();
+ }
 }

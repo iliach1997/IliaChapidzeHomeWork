@@ -7,12 +7,18 @@ using System.Threading.Tasks;
 namespace Task_5
 {
     public abstract class Vehicle
-    {
-        public abstract string Make { get; set; }
-        public abstract string Model { get; set; }
-        public abstract int Year{ get; set; }
-        public abstract double Price { get; set; }
-
+    {   
+      
+        public  Vehicle(string make, string model, int year, double price) {
+            Make = make;
+            Model = model;
+            Year = year;
+            Price= price;
+        }
+        public string Make { get; set; }
+        public string Model { get; set; } 
+        public int Year{ get; set; }
+        public double Price { get; set; }
         public abstract void DisplayInfo();
     }
 }
