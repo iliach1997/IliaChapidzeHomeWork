@@ -17,6 +17,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task#7", "Task#7\Task#7.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskManagmant", "TaskManagmant\TaskManagmant.csproj", "{B5C150A8-353F-439F-8D7E-D546A8A3B5A1}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InventarService", "InventarService\InventarService.csproj", "{74FB0EFC-91C2-4295-8E8B-77E6A189D7D1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task_NET_09", "Task_NET_09\Task_NET_09.csproj", "{2B3EAE16-26D8-43D7-A20C-BAD7545DB31A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,14 @@ Global
 		{B5C150A8-353F-439F-8D7E-D546A8A3B5A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B5C150A8-353F-439F-8D7E-D546A8A3B5A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B5C150A8-353F-439F-8D7E-D546A8A3B5A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74FB0EFC-91C2-4295-8E8B-77E6A189D7D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74FB0EFC-91C2-4295-8E8B-77E6A189D7D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74FB0EFC-91C2-4295-8E8B-77E6A189D7D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74FB0EFC-91C2-4295-8E8B-77E6A189D7D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B3EAE16-26D8-43D7-A20C-BAD7545DB31A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B3EAE16-26D8-43D7-A20C-BAD7545DB31A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B3EAE16-26D8-43D7-A20C-BAD7545DB31A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B3EAE16-26D8-43D7-A20C-BAD7545DB31A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
